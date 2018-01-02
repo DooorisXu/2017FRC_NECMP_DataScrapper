@@ -1,4 +1,5 @@
 # this file scraps the scores of every alliane in the matches in the 2017 FRC NECMP
+# need to double check the data criteria
 # in the terminal
 
 # install requests
