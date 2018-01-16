@@ -10,4 +10,7 @@ headers = {"contentType": "application/json",
            "authorization": api_url
            }
 def get_content ():
-    //api_url_base =
+    api_url ='{0}content'.format(api_url_base)
+    response = requests.get(api_url, headers = headers)
+
+
